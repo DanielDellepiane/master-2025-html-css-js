@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login</title>
+    <style>
+        @font-face {
+            font-family: 'Monumentextended';
+            src: url('font/MonumentExtended-Regular.otf');
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <!-----------   HEADER   --------------->
+    <header class="header">
+        <div class="header__logo"><img src="/img/milogo.svg" class="header__logo-img" title="logo-img" alt="logo-img">
+        </div>
+        <nav class="header__nav nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="index.html" class="nav__a">HOME</a></li>
+
+                <li class="nav__li"><a href="index.html" class="nav__a">NEWS</a></li>
+
+                <li class="nav__li"><a href="index.html" class="nav__a">MEDIA</a></li>
+
+            </ul>
+        </nav>
+
+        <nav class="header__nav-secondary">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="login.html" class="nav__a">LOGIN</a></li>
+                <li class="nav__li"><a href="register.html" class="nav__a">REGISTER</a></li>
+            </ul>
+            <div class="header__search"><img src="/img/search.svg" class="header__search-logo" title="search logo"
+                    alt="search logo"></div>
+        </nav>
+
+    </header>
+
+
+    <!-----------   LOGIN SECTION   --------------->
+    <main class="main">
+        <section class="register-section">
+            <form method="POST" action="tuofile.php" class="register-section__form">
+                <h2 class="register-section__title">LOGIN</h2>
+
+                <div class="register-section__form-area">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+
+                <div class="register-section__form-area">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Password">
+                </div>
+
+
+                <button type="submit" class="register-section__submit">Send</button>
+            </form>
+
+        </section>
+    </main>
+
+    <!-----------   FOOTER   --------------->
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__ul">
+                <li class="footer__li"><a href="index.html" class="footer__a">HOME</a></li>
+                <li class="footer__li"><a href="index.html" class="footer__a">NEWS</a></li>
+                <li class="footer__li"><a href="index.html" class="footer__a">MEDIA</a></li>
+                <li class="footer__li"><a href="login.html" class="footer__a">LOGIN</a></li>
+                <li class="footer__li"><a href="register.html" class="footer__a">REGISTER</a></li>
+            </ul>
+        </nav>
+        <div class="footer__logo"><img src="/img/milogo.svg" class="header__logo-img" alt="" title=""></div>
+    </footer>
+
+</body>
+
+</html>

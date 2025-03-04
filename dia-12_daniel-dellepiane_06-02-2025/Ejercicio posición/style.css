@@ -1,0 +1,93 @@
+/* Reset */
+*:not(button) {
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #141311;
+    font-size: .9375rem;
+}
+
+div{
+    border:1px solid black;
+    width: 100px;
+    height: 100px;;
+}
+
+.relative{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: aqua;
+    
+}
+
+
+
+.absolute{
+    position: absolute;
+   top: 50%;
+   right:50%;
+   background-color: blue;
+
+}
+
+
+
+.absolute2{
+    position: absolute;
+   background-color: rgb(0, 255, 94);
+   transform: translate(50%, 50%);
+}
+
+
+.relative3{
+    position: relative;
+   background-color: rgb(242, 255, 0);
+   margin: 0 auto;
+  
+}
+
+.fixed{
+    position: fixed;
+   top: 0;
+   right:0;
+   background-color: rgb(8, 136, 10);
+   height: 20px;
+   width: 100%;
+   z-index: 1;
+  
+   
+}
+
+
+.relative2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(242, 255, 0);
+    height: 100px;
+    width: 100%;
+
+}
+
+.sticky{
+    position: sticky;
+   top: 400px;
+   right:0;
+   background-color: rgb(63, 195, 199);
+   height: 10px;
+   width: 100%;
+    
+} 
+
+.sticky2{
+    position: sticky;
+   top: 80px;
+   right:0;
+   background-color: rgb(255, 0, 195);
+   height: 50px;
+   width: 100%;
+    
+} 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 33.54">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Begum-Bold, Begum;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-family: SofiaPro-UltraLight, 'Sofia Pro';
+        font-weight: 100;
+      }
+
+      .cls-3 {
+        fill: #ddded9;
+        font-size: 23.77px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1" data-name="Capa 1">
+    <text class="cls-3" transform="translate(7.4 25.48)"><tspan class="cls-1" x="0" y="0">mi</tspan><tspan class="cls-2" x="30.71" y="0" xml:space="preserve"> logo</tspan></text>
+  </g>
+</svg>

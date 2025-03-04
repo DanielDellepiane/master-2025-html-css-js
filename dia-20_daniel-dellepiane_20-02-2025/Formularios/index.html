@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Ejercicio Transition-Animation</title>
+    <style>
+        @font-face {
+            font-family: 'Monumentextended';
+            src: url('font/MonumentExtended-Regular.otf');
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <!-- ----------------------- Ejercicio 1 Form ----------------------- 
+        <div class="formulario">
+            <form method="POST" action="tuo-file.php" class="form">
+
+                <div class="formarea">
+                    <label for="name">Name:</label>
+                    <input type="text" id="loname" name="name" required placeholder="name">
+                </div>
+
+                <div class="formarea">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="email">
+                </div>
+
+                <div class="formarea">
+                    <label for="tel">Telephone:</label>
+                    <input type="tel" name="tel" id="tel" required placeholder="telephone">
+                </div>
+
+                <div class="messagearea">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" required placeholder="message">
+                    </textarea>
+                </div>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>-->
+
+
+
+        <!-- ----------------------- Ejercicio 2 Register -----------------------
+        <div class="register">
+            
+            <form method="POST" action="tuo-file.php" class="form">
+                <h3>Register</h3>
+                <div class="formarea">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                </div>
+
+                <div class="formarea">
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" required placeholder="Surname">
+                </div>
+
+                <div class="formarea">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </div>
+
+                <div class="formarea">
+                    <label for="repeat-email">Repeat Email:</label>
+                    <input type="email" id="repeat-email" name="repeat-email" required placeholder="Repeat email">
+                </div>
+
+                <div class="formarea">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" name="birthday" id="birthday" required placeholder="birthday">
+                </div>
+
+
+                <button type="submit">Send</button>
+            </form>
+        </div> -->
+
+
+
+        <!-- ----------------------- Ejercicio 3 Login ----------------------- 
+        <div class="login">
+
+            <form method="POST" action="tuo-file.php" class="form">
+                <h3>Login</h3>
+                <div class="formarea">
+                    <label for="login__name">Name:</label>
+                    <input type="text" id="login__name" name="name" required placeholder="Name">
+                </div>
+
+                <div class="formarea">
+                    <label for="login__password">Surname:</label>
+                    <input type="password" id="login__password" name="password" required placeholder="Password">
+                </div>
+
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        -->
+
+
+
+        <!-- ----------------------- Ejercicio 4 Checkboxes ----------------------- -->
+        <div class="caselle">
+        <div class="checkboxes">
+            
+            <form method="POST" action="tuo-file.php" class="form">
+                
+                <h2>Radio</h2>
+                <div class="formarea">
+                    <input type="radio" id="radio__first" name="radio" value="first radio" checked>
+                    <label for="radio__first">First radio</label>
+                </div>
+
+                <div class="formarea">
+                    <input type="radio" id="radio__second" name="radio" value="second radio">
+                    <label for="radio__second">Second radio</label>
+                </div>
+
+                <div class="formarea">
+                    <input type="radio" id="radio__disabled" name="disabled" value="disabled" disabled>
+                    <label for="radio__disabled">Disabled</label>
+                </div>
+
+
+                <div class="formarea">
+                    <input type="radio" id="radio__disabled-checked" name="disabled-checked"
+                        value="disabled-checked" checked disabled>
+                    <label for="radio__disabled-checked">Disabled</label>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="checkboxes">
+
+            <form method="POST" action="tuo-file.php" class="form">
+                <h2>Checkboxes</h2>
+
+                <div class="formarea">
+                    <input type="checkbox" id="checkboxes__firstcheckbox" name="checkbox" value="first checkbox" checked>
+                    <label for="checkboxes__firstcheckbox">First checkbox</label>
+                </div>
+
+                <div class="formarea">
+                    <input type="checkbox" id="checkboxes__secondcheckbox" name="checkbox" value="second checkbox">
+                    <label for="checkboxes__secondcheckbox">Second checkbox</label>
+                </div>
+
+                <div class="formarea">
+                    <input type="checkbox" id="checkboxes__disabled" name="disabled" value="disabled" disabled>
+                    <label for="checkboxes__disabled">Disabled</label>
+                </div>
+
+
+                <div class="formarea">
+                    <input type="checkbox" id="checkboxes__disabled-checked" name="disabled-checked"
+                        value="disabled-checked" checked disabled>
+                    <label for="checkboxes__disabled-checked">Disabled</label>
+                </div>
+
+            </form>
+        </div>
+
+
+        <div class="checkboxes">
+
+            <form method="POST" action="tuo-file.php" class="form">
+                <h2>Select boxes</h2>
+
+
+                <div class="formareaselect">
+                   
+                    <select  id="select-first" name="select-first">
+                        <option value="First option">First option</option>
+                        <option value="Second option">Second option</option>
+                        <option value="Third option">Third option</option>
+
+                    </select>
+
+                   
+                    <select  id="select-second" name="select-second">
+                        <option value="First option">First option</option>
+                        <option value="Second option">Second option</option>
+                        <option value="Third option">Third option</option>
+
+                    </select>
+
+
+                    <select  id="select-third" name="select-third" disabled>
+                        <option value="First option">First option</option>
+                        <option value="Second option">Second option</option>
+                        <option value="Third option">Third option</option>
+
+                    </select>
+
+                    
+                </div>
+            </form>
+                </div>
+
+            
+        </div>
+    
+    </main>
+</body>
+
+
+</html>

@@ -1,0 +1,299 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+/* ----------------------- Ejercicio 1 Form -----------------------
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 350px;
+    border: 1px solid rgb(155, 155, 155);
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formarea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border: 1px solid rgb(103, 103, 103);
+}
+
+button:hover {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(103, 103, 103);
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(103, 103, 103);
+    background-color: rgba(255, 255, 255, 0.499);
+}
+
+.messagearea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.499);
+    width: 100%;
+    padding-left: 5px;
+}
+
+ */
+
+/* ----------------------- Ejercicio 2 Register ----------------------- 
+
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+    border: 1px solid rgb(155, 155, 155);
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formarea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border: 1px solid rgb(103, 103, 103);
+}
+
+button:hover {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(103, 103, 103);
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(103, 103, 103);
+    background-color: rgba(255, 255, 255, 0.499);
+}
+
+#repeat-email {
+    width: 180px;
+    justify-content: flex-start;
+}
+
+.messagearea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.499);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+    color: gray;
+}
+*/
+
+
+/* ----------------------- Ejercicio 3 Login ----------------------- 
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+
+   
+}
+
+.form {
+  
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+    border: 1px solid rgb(155, 155, 155);
+    padding: 50px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formarea {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 5px ;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border: 1px solid rgb(103, 103, 103);
+    margin-bottom: 50px;   
+}
+
+h3 {
+    padding-top: 50px;
+}
+
+button:hover {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(103, 103, 103);
+    cursor: pointer;
+}
+
+.messagearea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.499);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+    color: gray;
+}*/
+
+
+
+/* ----------------------- Ejercicio 4 Boxes ----------------------- */
+
+.caselle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    gap: 20px;  
+}
+
+select{
+    width: 200px;
+    height: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 5px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(155, 155, 155);
+    padding: 50px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formarea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 5px ;
+}
+
+
+
+.formareaselect {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 5px ;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.499);
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+    color: gray;
+    width: 20px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border: 1px solid rgb(103, 103, 103);
+    margin-bottom: 50px;   
+}
+
+
+button:hover {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(103, 103, 103);
+    cursor: pointer;
+}
+

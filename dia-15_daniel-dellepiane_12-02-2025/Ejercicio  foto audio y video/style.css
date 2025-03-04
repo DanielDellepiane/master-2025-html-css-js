@@ -1,0 +1,50 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: 30px;
+    scrollbar-color: red;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+   align-items: center;
+    
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+
+img:hover {
+    width: 105px;
+    height: auto;
+}
+
+
+video{
+    width: 300px;
+    height: auto;
+}

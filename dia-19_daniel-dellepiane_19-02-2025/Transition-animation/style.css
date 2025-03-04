@@ -1,0 +1,233 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+/* ----------------------- Ejercicio 1 Transition ----------------------- 
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition-delay: 1s ;
+}
+
+.red:hover {
+    width: 200px;
+}
+
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.green:hover {
+    height: 200px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.blue {
+    background-color: rgb(0, 4, 255);
+    width: 100px;
+    height: 100px;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.blue:hover {
+    width: 200px;
+    height: 200px;
+}*/
+
+
+/* ----------------------- Ejercicio 2 Animation -----------------------
+
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: ancho;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes ancho {
+    from {
+        width: 100px;
+    }
+
+    to {
+        width: 300px;
+    }
+}
+
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.blue {
+    background-color: rgb(0, 4, 255);
+    width: 100px;
+    height: 100px;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes color {
+    0% {
+        background-color: rgb(0, 4, 255);
+    }
+
+    50% {
+        background-color: rgb(167, 155, 45);
+    }
+
+
+    100% {
+        background-color: rgb(67, 215, 102);
+    }
+}*/
+
+
+
+
+/* ----------------------- Ejercicio 3 Animation -----------------------
+
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.p {
+    
+    width: 100px;
+    height: 100px;
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    
+}
+
+@keyframes parpadeo {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}*/
+
+
+/* ----------------------- Ejercicio 4 Animation -----------------------
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    animation-play-state: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(400px);
+    }
+
+    80%  {
+        transform: translateX(-400px);
+    }
+
+
+    100%  {
+        transform: translateX(0px);
+    }
+}*/
+
+
+
+
+/* ----------------------- Ejercicio 5 Transition -----------------------*/
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.green {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    color: green;
+    transition-duration: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green:hover {
+    color: rgb(255, 255, 255);
+}

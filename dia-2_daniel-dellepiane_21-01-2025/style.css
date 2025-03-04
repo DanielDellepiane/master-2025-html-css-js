@@ -1,0 +1,55 @@
+
+h1 {color:blue;
+	
+}
+#h1id{
+    color: lightblue;
+}
+
+.h1class{
+    color: rgb(25, 109, 187);
+}
+
+
+h2 {color:red;
+	
+}
+
+h3 {color:rgb(255, 170, 0);
+	
+}
+
+h4 {color:rgb(231, 213, 12);
+	
+}
+
+td, th, tr{
+    border: 3px solid rgb(49, 77, 153);
+    text-align: center;
+    
+}
+
+table {
+    border: 3px solid rgb(47, 0, 255);
+    margin: auto;
+    width: 100%;
+       
+}
+
+.div1{
+    background-color: rgb(25, 187, 33);
+}
+
+.div2{
+    background-color: rgb(158, 3, 255);
+    
+}
+
+.div3{
+    background-color: rgb(199, 239, 0);
+    position:relative;
+}
+
+.spanclass{
+    color: rgb(255, 0, 0);
+}

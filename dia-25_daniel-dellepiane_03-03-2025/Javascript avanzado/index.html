@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Eume House</title>
+    <style>
+        @font-face {
+            font-family: 'Monumentextended';
+            src: url('font/MonumentExtended-Regular.otf');
+        }
+    </style>
+    <script src="index.js" defer> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- Ejercicio 1 -->
+
+    <textarea id="text"></textarea>
+    <button type="button" onclick="mostrar()">Mostrar</button>
+    <p id="resultado"></p>
+
+    <hr>
+    <!-- Ejercicio 2 -->
+    <form>
+        <input type="number" id="n1" required>
+        <input type="number" id="n2" required>
+        <br>
+        <button type="button" onclick="sumar()">sumar</button>
+        <span id="resultado2"></span>
+    </form>
+
+    <hr>
+    <!-- Ejercicio 3 -->
+
+    <label for="text2">Text</label><br>
+    <textarea id="text2"></textarea><br>
+
+    <label for="size">Size</label><br>
+    <input type="number" id="size"><br>
+
+    <label for="color">color</label><br>
+    <input type="color" id="color"><br>
+
+    <button type="button" onclick="changeText()">Generar texto</button>
+    <p id="resultado3"></p>
+
+</body>
+
+</html>

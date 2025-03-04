@@ -1,0 +1,59 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #141311;
+    font-size: 15px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    background-color: aqua;
+    width: 80vw;
+    height: 20vh;
+}
+
+main {
+    width: 80vw;
+    background-color: bisque;
+
+}
+
+img {
+    width: 70vw;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: cadetblue;
+    justify-content: space-between;
+  
+}
+
+footer{
+    background-color: red;
+}
+
+blockquote{
+    background-color: rgb(139, 139, 214);
+}
+
+.parrafo{background-color: aquamarine;}

@@ -1,0 +1,10 @@
+/* Reset */
+*:not(button) {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #141311;
+    font-size: .9375rem;
+}

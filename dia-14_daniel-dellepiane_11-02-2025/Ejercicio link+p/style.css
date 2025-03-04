@@ -1,0 +1,28 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: 30px;
+    scrollbar-color: red;
+    
+}
+
+main {display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section{
+    width: 500px;
+    height: 700px;
+}

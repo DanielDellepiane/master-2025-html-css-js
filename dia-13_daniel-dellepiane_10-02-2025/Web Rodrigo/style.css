@@ -1,0 +1,413 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+a{ mix-blend-mode:color-dodge;
+
+}
+
+body{
+    min-height: 100vh;
+}
+main{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.header {
+
+    height: 100vh;
+    background: url(./img/gray-background.webp) no-repeat center center;
+    color: #383839;
+}
+.menu__scroll{
+    height:120vh;
+
+}
+.menu {
+    position: sticky;
+    top: 5px;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 20px;
+    align-content: center;
+    gap: 70px;
+    z-index: 10;
+ 
+}
+
+
+
+.menu__nav {
+    display: flex;
+    flex-direction: row;
+    font-family: "Oswald", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.4vw;
+    gap: 5vw;
+    opacity: 1;
+    list-style: none;
+    
+
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+    .menu__nav {
+        font-size: 2.2vw;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu__nav {
+        font-size: 3vw;
+    }
+}
+
+.menu__link {
+    
+    text-decoration: none;
+    color: #393938;
+    z-index: 11;
+    mix-blend-mode:lighten;
+}
+
+.menu__link:hover {
+
+    color: darkgray;
+}
+
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.cover__title {
+    font-size: 11vw;
+    font-family: 'Monumentextended';
+    align-self: flex-start;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+
+
+@media (max-width: 480px) {
+    .cover__title {
+        font-size: 15vw;
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+
+    .cover__title {
+        font-size: 10vw;
+        padding-top: 40px;
+    }
+}
+
+
+
+
+.cover__video {
+    position: absolute;
+    align-self: flex-end;
+    width: 450px;
+    height: 300px;
+    border-radius: 2px;
+    padding-right: 40px;
+    top: 45%;
+    right: 40px;
+
+
+}
+
+
+@media (max-width: 480px) {
+    .cover__video {
+        width: 340px;
+        height: 300px;
+        align-self: center;
+        left: 10vw;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+
+    .cover__video {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+
+
+.cover__video iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.cover__subtitle {
+    position: absolute;
+    font-size: 4vw;
+    font-family: 'Monumentextended';
+    left: 50px;
+    bottom: 60px;
+}
+
+
+.menu--white {
+    margin-top: 0px;
+    position: sticky;
+    top: 10px;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 40px;
+    align-content: center;
+    gap: 70px;
+    z-index: 10;
+}
+
+
+
+.menu__nav--white {
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    font-family: "Oswald", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.4vw;
+    gap: 5vw;
+    opacity: 1;
+    list-style: none;
+
+
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+    .menu__nav--white {
+        font-size: 2.2vw;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menu__nav--white {
+        font-size: 3vw;
+    }
+}
+
+.menu__link--white {
+    text-decoration: none;
+    color: #DFE1DB;
+}
+
+.menu__link--white:hover {
+
+    color: darkgray;
+}
+
+.quote-section { height: 240vh;
+    background: url(./img/black-background.webp) no-repeat center center;
+    
+}
+
+.quote {
+    
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+    height: 100vh;
+    background: url(./img/black-background.webp) no-repeat center center;
+    font-family: 'Monumentextended';
+    
+}
+
+
+
+
+
+
+.quote__img {
+    width: auto;
+    height: 40vw;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+
+
+
+.quote-section__text {
+    color: #DFE1DB;
+    font-size: 2.8vw;
+
+}
+
+@media (min-width: 480px) and (max-width: 780px) 
+{
+    .quote {
+       flex-direction: column-reverse;
+       
+       gap: 40px;
+        height: AUTO;
+        
+    }
+
+
+.quote__img {
+    width: auto;
+    height: 95vw;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+.quote-section__text {
+   
+    color: #DFE1DB;
+    font-size: 2.3vw;
+    max-width: 95%;
+    text-align: left;
+    }
+ 
+}
+
+
+@media (max-width: 480px) 
+{
+    .quote {
+       flex-direction: column-reverse;
+       
+       gap: 40px;
+        height: AUTO;
+        
+    }
+
+
+.quote__img {
+    width: auto;
+    height: 95vw;
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+.quote-section__text {
+   
+    color: #DFE1DB;
+    font-size: 2.3vw;
+    max-width: 95%;
+    text-align: left;
+    }
+ 
+}
+
+.location {
+    border-top: solid 2px #DFE1DB;
+    position: relative;
+   
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    height: auto;
+
+    background: url(./img/black-background.webp) no-repeat center center;
+    font-family: 'Monumentextended';
+    gap: 50px;
+    
+}
+
+
+
+.location__img {
+    width: calc(100vw - 50px);
+    height: auto;
+    border-radius: 23px;
+
+}
+
+.location__text {
+    color: #DFE1DB;
+    font-size: 7vw;
+
+}
+
+
+.rodrigo-menu {
+
+    height: auto;
+    background: url(./img/gray-background.webp) no-repeat center center;
+    color: #383839;
+}
+
+.rodrigo-section {
+display: flex;
+flex-direction: row;
+padding-bottom: 100px;
+
+
+}
+
+.rodrigo-section__info {
+    
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 10px;
+    font-family: 'Monumentextended';
+    width: 50vw;
+    
+}
+
+.rodrigo__title {
+    font-size: 5vw;
+    padding-left: auto;
+}
+
+
+.rodrigo__gallery{
+    width:40vw;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+.rodrigo__img {
+   width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 23px;
+
+}

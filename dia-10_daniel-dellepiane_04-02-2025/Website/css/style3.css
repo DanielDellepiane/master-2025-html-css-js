@@ -1,0 +1,283 @@
+/* Reset  */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #141311;
+}
+
+/*  --------------------------------------- Body ---------------------------------------*/
+
+.body {
+    background-color: #2d2d2d;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+/*  --------------------------------------- Header ---------------------------------------*/
+
+
+
+header {
+    font-size: calc(1vw + .5rem);
+}
+
+@media (min-width: 780px) {
+    header {
+        font-size: 1rem;
+    }
+}
+
+
+/* -------------- Menu -------------- */
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: .625rem;
+    height: 4.375rem;
+    position: sticky;
+}
+
+
+.menu__nav {
+    display: flex;
+    font-weight: 300;
+    gap: .625rem;
+}
+
+
+.menu__ul {
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+}
+
+.menu__link {
+
+    padding: .625rem;
+    text-decoration: none;
+    color: #b8b5b5;
+
+}
+
+.menu__link--hover:hover {
+    opacity: 0.8;
+}
+
+.menu__link--active {
+    text-decoration: none;
+    color: #9b9a9a;
+    opacity: 0.6;
+    padding: .625rem;
+}
+
+/* Logo */
+.menu__logo {
+    align-items: flex-start;
+    padding-left: calc(1vw + 0rem);
+}
+
+
+
+.menu__logo-img {
+    width: 7.5rem;
+    height: auto;
+
+}
+
+/* Media Query */
+
+@media (max-width: 480px) {
+
+    .menu__nav {
+
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-style: normal;
+        gap: .625rem;
+        /* background-image: url('/img/menu.png'); */
+    }
+
+}
+
+/*  --------------------------------------- Main ---------------------------------------*/
+
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 12.5rem);
+    align-content: space-between;
+
+}
+
+
+
+/* Cover */
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 37.5rem;
+    background-color: #141311;
+    background: url('/img/cover-media.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 3.125rem;
+}
+
+.cover__layer {
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cover__title {
+    font-size: calc(1vw + 1.75rem);
+    font-weight: 200;
+    position: relative;
+    padding-left: 3.125rem;
+    z-index: 9;
+    color: white;
+
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: calc(1vw + 2.625rem);
+    font-weight: 700;
+    color: white;
+}
+
+
+
+/* Video-Gallery */
+
+
+.video-gallery__title {
+
+    font-size: 1.875rem;
+    font-variant: small-caps;
+    padding-left: 2.1875rem;
+    padding-top: 3.75rem;
+    color: #DDDED9;
+    font-weight: 300;
+
+}
+
+.video-gallery__list {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+    width: auto;
+
+
+}
+
+
+.video-container {
+    padding-top: 56.25%;
+    padding-bottom: 3.125rem;
+    position: relative;
+    width: calc(100vw - 6.25rem);
+    height: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 30rem) {
+
+
+    .video-container {
+        padding-top: 56.25%;
+        padding-bottom: 3.125rem;
+        position: relative;
+        width: calc(100vw - 3.125rem);
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+/*  --------------------------------------- Footer ---------------------------------------*/
+
+.footer {
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6.25rem;
+    z-index: 10;
+}
+
+.footer__logo {
+    align-content: center;
+    width: 9.375rem;
+    height: auto;
+}
+
+.footer__logo-img {
+    position: relative;
+    width: 100%;
+}
+
+.footer__ul {
+    display: flex;
+    list-style: none;
+    padding: 1.875rem;
+    gap: .625rem;
+}
+
+.footer__link {
+    font-size: .9375rem;
+    color: #b3b8b5;
+    text-decoration: none;
+    font-weight: 200;
+
+
+}
+
+.footer__link--hover:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}

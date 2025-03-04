@@ -1,0 +1,81 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #141311;
+    font-size: 15px;
+}
+
+
+/*  --------------------------------------- Body ---------------------------------------*/
+
+
+
+div {
+    font-size: 15px;
+
+}
+
+h1 {
+    font-size: calc(5vw + 10px) ;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+
+.intro {
+    font-size: 2vh;
+}
+
+
+button {
+    font-size: 1em;
+}
+
+
+.rectangle {
+    justify-self: center;
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+    border: solid 0.5rem black;
+
+}
+
+
+.outro {
+    font-size: 1em;
+}
+
+
+.greenrectangle {
+    justify-self: center;
+    width: 50vw;
+    height: auto;
+    font-size: 20px;
+    margin-top: 2em;
+    border: solid 0.5rem rgb(51, 255, 0);
+    padding: calc(2rem + 5px);
+}
+
+
+.text {
+    font-size: 1em;
+    max-width: 60vh;
+    line-height: 1.6em;
+}
+
+.redrectangle {
+    justify-self: center;
+    width: 50vw;
+    height: auto;
+    font-size: 20px;
+    margin-top: 2em;
+    border: solid 0.5rem rgb(255, 1, 1);
+    padding: calc(2rem + 5px);
+}

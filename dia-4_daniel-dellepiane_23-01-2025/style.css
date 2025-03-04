@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    color: black;
+}
+
+.ejercicio1 {
+    background-color: blueviolet;
+
+
+}
+
+.h1center {
+    text-align: center;
+}
+
+span {
+    background-color: aqua;
+}
+
+
+
+.contenitoreimg {
+    position: relative;
+    width: calc(100% - 20px);
+    height: auto;
+    border-radius: 5px;
+    border-color: black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 20px;
+    color: blue;
+    font-family: "Bodoni Moda";
+    font-weight: 400;
+    font-style: none;
+
+}
+
+
+p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.ejercicio2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 149, 255);
+    padding-bottom: 20px;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.div7 {
+    margin: 20px;
+    width: 33vw;
+
+
+}
+
+
+
+
+button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+
+}
+
+a:hover {
+    color: rgb(0, 255, 38);
+}
+
+
+.content1 {
+    background-color: rgb(4, 255, 222);
+    padding: 50px;
+    text-align: center;
+}
+
+
+.content2 {
+    background-color: rgb(0, 255, 47);
+    padding: 50px;
+    display: none;
+    text-align: center;
+}
+
+
+.content3 {
+    background-color: rgb(255, 4, 167);
+    padding: 50px;
+    text-align: center;
+}
+
+
+.content4 {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(114, 183, 91);
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.content5 {
+    width: 400px;
+    height: 80px;
+    background-color: rgb(132, 124, 234);
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.content6 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(227, 111, 187);
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.ejercicio5 {
+
+    background-color: rgb(226, 238, 238);
+}
+
+
+
+
+
+
+
+nav {
+    height: 75px;
+    padding: 15px;
+    background-color: rgb(133, 133, 176);
+    align-content: center;
+}
+
+.logo {
+    max-height: 20px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+
+li {
+    display: inline-block;
+}
+
+
+
+.home,
+.noticias,
+.galeria,
+.contacto {
+    width: auto;
+    padding: 15px;
+    font-weight: 800;
+
+}
+
+.home:hover,
+.noticias:hover,
+.galeria:hover,
+.contacto:hover {
+    color: rgb(255, 0, 0);
+
+}
+
+
+
+
+
+
+
+.contenitoreimg2 {
+    position: relative;
+    width: calc(100vw - 20px);
+    height: auto;
+    padding: 20px;
+
+}
+.ejercicio6 {
+    width: 100%; /* Oppure una larghezza desiderata */
+    text-align: center; /* Questo centra tutto il contenuto */
+}
+
+
+.h1left {
+    text-align: left;
+    padding-left: 25px;
+}
+
+footer {
+    background-color: rgb(133, 133, 176);
+    padding: 20px;
+    height: 125px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.pleft {
+    text-align: left;
+}
+
+main{
+    min-height: calc(100vh - 125px);
+
+}

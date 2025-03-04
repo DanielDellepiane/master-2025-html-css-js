@@ -1,0 +1,319 @@
+/* Reset  */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #141311;
+}
+
+body {
+    background-color: #DDDED9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Header */
+
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-style: normal;
+    gap: 10px;
+}
+
+.link-menu {
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: flex-end;
+}
+
+.logo {
+    align-items: flex-start;
+}
+
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Main */
+main {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 200px);
+    align-content: space-between;
+
+}
+
+/* Cover */
+.covercontainer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    background-color: #141311;
+    background-image: url('/Surf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 200;
+    z-index: 10;
+    color: white;
+}
+
+.layer {
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cover-title {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 400px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+}
+
+.cover {
+    width: 100%;
+    opacity: 0.6;
+    height: auto;
+    margin: 0 auto;
+    z-index: 0;
+    display: block;
+    position: relative;
+}
+
+
+
+/* Mission */
+.mission-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    height: 900px;
+}
+
+.mission {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    align-self: center;
+    text-wrap: wrap;
+}
+
+
+
+/* Gallery */
+
+
+.section-title {
+    font-size: 35px;
+    font-variant: small-caps;
+    padding-left: 50px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    height: auto;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+.tshirt-container {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 250px;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.tshirt-container:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.t-shirtimg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+
+
+.product-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.tag {
+    font-size: 12px;
+    margin-top: -2px;
+    padding-bottom: 2px;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+button {
+    background-color: #DDDED9;
+    color: #2d2d2d;
+    text-align: center;
+    width: 70px;
+    font-weight: 100;
+    font-style: normal;
+    height: auto;
+    border: 1px solid #385956;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+
+}
+
+button:hover {
+    background-color: #385956;
+    color: #DDDED9;
+    transform: scale(1.05);
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.old-price {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+
+.discount {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bc1823;
+}
+
+.product-price {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: #bc1823;
+}
+
+
+/* Footer */
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+
+}
+
+.logo-footer {
+    align-content: center;
+}
+
+
+.ul-footer {
+    display: flex;
+    list-style: none;
+    padding: 30px;
+
+}
+
+footer .link-menu {
+    font-size: 15px;
+    color: #6a6d6b;
+}
+
+a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.link-menu-active {
+
+    opacity: 0.6;
+    padding: 10px;
+}

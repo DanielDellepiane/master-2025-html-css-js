@@ -1,0 +1,289 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 40px;
+}
+
+/* ----------------------- Ejercicio 1 ----------------------- 
+.blur {
+    filter: blur(5px);
+}
+
+.brightness {
+    filter: brightness(7);
+}
+
+.contrast {
+    filter: contrast(200%);
+}
+
+
+.drop-shadow {
+    filter: drop-shadow(16px 16px 20px blue);
+}
+
+.grayscale {
+    filter: grayscale(50%);
+}
+
+.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+
+.invert {
+    filter: invert(75%);
+}
+
+.opacity {
+    filter: opacity(25%);
+}
+
+.saturate {
+    filter: saturate(1000%);
+}
+
+.sepia {
+    filter: sepia(60%);
+}*/
+
+
+/* ----------------------- Ejercicio 2 -----------------------  
+.div {
+    height: 100px;
+    background-color: rgb(225, 225, 225);
+    display: grid;
+    justify-content: center;
+    height: 300px;
+    align-content: center;   
+}
+
+.p {
+    font-family: 'Courier New', Courier, monospace;
+    align-self: center;
+    justify-self: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgba(232, 48, 48, 0.8);
+}
+
+.cuadrado {
+    border: solid 3px black;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 3px rgb(164, 164, 164);
+}*/
+
+
+/* ----------------------- Ejercicio 3 padding e margin----------------------- 
+
+.contenitore {
+    background-color: blue;
+    border: solid 2px green;
+    width: 40vw;
+    padding: 10vw;
+    
+}
+
+.contenuto {
+    background-color: red;
+    width: 20vw;
+    height: 20vw;
+    border: solid 2px black;
+}  */
+
+
+/* ----------------------- Ejercicio 4 - text ----------------------- 
+
+section {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+p { text-align: center;
+    text-decoration: underline;
+    text-indent: 6em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 2px #aaa;
+    color: #333;
+
+}*/
+
+/* ----------------------- Ejercicio 5 - fusion ----------------------- 
+
+section {
+    display: flex;
+    margin: 0 auto;
+  flex-wrap: wrap;
+    background-color: green;
+
+}
+img{
+    width: 300px;
+    height:auto;
+}
+
+.normal {
+    mix-blend-mode: normal;
+}
+
+.multiply {
+    mix-blend-mode: multiply;
+}
+
+
+.screen {
+    mix-blend-mode: screen;
+}
+
+
+.overlay {
+    mix-blend-mode: overlay;
+}
+
+
+.darken {
+    mix-blend-mode: darken;
+}
+
+
+.lighten {
+    mix-blend-mode: lighten;
+}
+
+
+.color-dodge {
+    mix-blend-mode: color-dodge;
+}
+
+
+.color-burn {
+    mix-blend-mode: color-burn;
+}
+
+
+.hard-light {
+    mix-blend-mode: hard-light;
+}
+
+
+.soft-light {
+    mix-blend-mode: soft-light;
+}
+
+
+.difference {
+    mix-blend-mode: difference;
+}
+
+
+.exclusion {
+    mix-blend-mode: exclusion;
+}
+
+
+.hue {
+    mix-blend-mode: hue;
+}
+
+
+.saturation {
+    mix-blend-mode: saturation;
+}
+
+
+.color {
+    mix-blend-mode: color;
+}
+
+
+.luminosity {
+    mix-blend-mode: luminosity;
+}*/
+
+
+/* ----------------------- Ejercicio 6 - transform ----------------------- 
+
+
+section {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items:center;
+    gap:50px;
+    margin: 0 auto;
+
+}
+.red {
+    background-color: red;
+    width:100px;
+    height: 100px;
+    transform-origin: center;
+    transition-duration: 4s;
+    transform: rotateX(30deg);
+    
+    
+}
+
+.green {
+    background-color: green;
+    width:100px;
+    height: 100px;
+    transition-duration: 4s;
+    transform-origin: center;
+    transform: rotateY(90deg);
+}
+
+.blue {
+    background-color: blue;
+    width:100px;
+    height: 100px;
+    transition-duration: 4s;
+    transform-origin: center;
+    transform: rotateZ(40deg);
+   
+
+}*/
+
+
+/* ----------------------- Ejercicio 7 - degradado ----------------------- */
+
+section {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.red {
+    background: linear-gradient(to right, red, orange);
+    width: 200px;
+    height: 200px;
+}
+
+.green {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(121, 9, 58, 1) 25%, rgba(255, 206, 0, 1) 100%);
+    width: 200px;
+    height: 200px;
+}

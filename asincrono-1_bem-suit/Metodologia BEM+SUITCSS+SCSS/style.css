@@ -1,0 +1,33 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+/* ----------- BEM + SCSS --------------
+
+.header{
+&__h1{
+    font-size: 30px;
+}
+&__a{}
+&__nav{}
+&__ul{}
+&__li{}
+&__a{}
+}       */
+
+
+/* ----------- SUITCSS --------------*/
+
+.Header{}
+.Header-h1{}
+.Header-a{}
+.Header-nav{}
+.Header-ul{}
+.Header-li{}
+.Header-a{}
+.Header

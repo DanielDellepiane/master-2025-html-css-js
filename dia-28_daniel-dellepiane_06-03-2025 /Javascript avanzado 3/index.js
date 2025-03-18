@@ -1,45 +1,39 @@
 
 // ----------------------- Ejercicio 1  accede a cada una de sus propiedades mostrandolas por consola.
 
-// let alumno = {
-//     nombre: 'daniel',
-//     apellido: 'dellepiane',
-// }
+console.log("-------- Ejercicio 1 --------")
 
-// console.log(alumno.nombre);
-// console.log(alumno.apellido);
+const alumno = {
+    nombre: 'daniel',
+    apellido: 'dellepiane',
+    curso: 'web',
+}
+
+console.log(alumno.nombre);
+console.log(alumno.apellido);
+console.log(alumno.curso);
 
 
 // ----------------------- Ejercicio 2  Deconstruye el objeto “alumno” y accede a cada una de sus variables cargadas.
 
-// const alumno = {
-//     nombre: 'daniel',
-//     apellido: 'dellepiane',
-//     curso: 'javascript',
-// }
-
-// const { nombre, apellido, curso } = alumno;
+console.log("-------- Ejercicio 2 --------")
 
 
-// const { nombre: proprio1, apellido: proprio2, curso: web } = alumno;
+const { nombre, apellido, curso } = alumno;
 
+console.log(alumno.nombre);
+console.log(alumno.apellido);
+console.log(alumno.curso);
 
-// console.log(proprio1);
 
 
 
 
 // ----------------------- Ejercicio 3  Añade al objeto “alumno” una metodo. Que imprimar el nombre y apellidos del alumno por consola.
 
-let alumno1 = {
-    nombre: 'daniel',
-    apellido: 'dellepiane',
-    curso: 'javascript',
-    metodo1: function(){},
-}
+console.log("-------- Ejercicio 3 --------")
 
-let alumno2 = {
-    metodo1:() => {},
+alumno.print = function (){
+    console.log(this.nombre + " " + this.apellido);
 }
-
-console.log (alumno2)
+alumno.print()

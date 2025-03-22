@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Eume House</title>
+    <style>
+        @font-face {
+            font-family: 'Monumentextended';
+            src: url('font/MonumentExtended-Regular.otf');
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            display: block;
+            margin: 20px;
+            width: 200px;
+            background-color: blanchedalmond;
+            border: 1px solid grey;
+            padding: 10px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+
+        button:hover {
+
+            background-color: rgb(233, 143, 8);
+        }
+
+        button:active {
+            background-color: rgb(233, 23, 8);
+        }
+
+        .container {
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: aqua;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+    <script src="index.js" defer> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <!-- Aprire finestra -->
+    <h1 id="h1">Dia 30</h1>
+    <button onclick="handlerOpen()">Open</button>
+    <button onclick="handlerClose()">Close</button>
+    <button onclick="handlerMove()">Move</button>
+    <button onclick="handlerResize()">Resize</button>
+    <button onclick="handlerLocation()">Location</button>
+
+
+
+  <!-- Generare numeri e colori random -->
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+
+    </div>
+
+      
+    <button onclick="handlerRandorizer()">Randorizer</button>
+
+  <!-- Calcolatrice -->
+
+    <input type="text" id="n1">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="text" id="n2">
+    <button onclick="handlerCalculator()">Calculate</button>
+
+    <span id="result">0</span>
+</body>
+
+</html>

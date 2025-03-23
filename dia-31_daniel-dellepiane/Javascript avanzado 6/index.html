@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Eume House</title>
+    <style>
+        @font-face {
+            font-family: 'Monumentextended';
+            src: url('font/MonumentExtended-Regular.otf');
+        }
+    </style>
+    <script src="index.js" defer> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- Esercizio 1 y 6 describire 10 eventos + aplicarlos -->
+    <h1 id="h1">Dia 31</h1>
+
+    <h2>Ejercicio 1</h2>
+
+
+
+    <div class="container1">
+        <!-- Esercizio 1  - data -->
+        <div class="evento">
+            <span>Event 1</span>
+            <div class="description">
+                <h2>What time is it? - Onclick</h2>
+                <button id="myButton">What time is it?</button>
+                <p id="demo"></p>
+            </div>
+        </div>
+
+        <!-- Esercizio 1  - change background color -->
+        <div class="evento">
+            <span>Event 2</span>
+            <div id="description__background">
+                <h2>Change background color</h2>
+                <button id="handlerbackgroundChanger">Change color</button>
+            </div>
+        </div>
+
+
+
+        <!-- Esercizio 1  - Focus change-->
+        <div class="evento">
+            <span>Event 3</span>
+            <div class="description">
+                <h2>Focus change</h2>
+                <p>Click on the input field, and it will get focus.</p>
+            </div>
+            <form id="form">
+                <label>
+                    Some text:
+                    <input type="text" placeholder="text input" />
+                </label>
+                <label>
+                    Password:
+                    <input type="password" placeholder="password" />
+                </label>
+            </form>
+
+        </div>
+
+        <!-- Esercizio 1  - Resize-->
+        <div class="evento">
+            <span>Event 4</span>
+            <div class="description">
+                <h2>Double click - Resize an object </h2>
+                <div class="card">
+                    <h3>My Card</h3>
+                    <p>Double click to resize this object.</p>
+                </div>
+
+
+
+                <!-- Esercizio 1  - Mouse over - enter -->
+                <div class="evento">
+                    <span>Event 5</span>
+                    <div class="description"> Evento
+
+                        Si attiva ogni volta che il mouse passa sopra, si riattiva su ogni elemento dentro
+
+                        <h2>Mouse over </h2>
+                        <ul id="test-over">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="evento">
+                    <span>Event 6</span>
+                    <div class="description">Si attiva quando entri nel contenitore, non si riattiva sui figli
+                        <h2>Mouse enter </h2>
+                        <ul id="test-enter">
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <!-- Esercizio 1  - Scroll -->
+                <div class="evento">
+                    <span>Event 6</span>
+                    <div class="description">
+                        <h2>Scroll </h2>
+
+                        <div id="scroll">In my younger and more vulnerable years my father gave me some advice that
+                            I've been turning over in my mind ever since.
+                            <br><br>
+                            'Whenever you feel like criticizing anyone,' he told me, just remember that all the people
+                            in this
+                            world haven't had the advantages that you've had.'
+                        </div>
+
+                        <p>Scrolled <span id="numero">0</span> times.</p>
+
+                    </div>
+                </div>
+
+
+                <!-- Esercizio 1  - Open details -->
+                <div class="evento">
+                    <span>Event 7</span>
+                    <div class="description">
+                        <h2>Open details </h2>
+                        <details id="details">
+                            <summary>Copyright 1999-2014.</summary>
+                            <p> - by Refsnes Data. All Rights Reserved.</p>
+                            <p>All content and graphics on this web site are the property of the company Refsnes Data.
+                            </p>
+                        </details>
+
+                    </div>
+                </div>
+
+
+                <!-- Esercizio 1  - Wheel event -->
+                <div class="evento">
+                    <span>Event 8</span>
+                    <div class="description">
+                        <h2>On wheel event</h2>
+                        <p>Use the addEventListener() method to attach a "wheel" event to an element:</p>
+
+                        <div id="wheel">
+                            <p>Roll the mouse wheel over me!</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Esercizio 2 Cambiare colore ai bottoni in modo random -->
+
+    <h2>Ejercicio 2</h2>
+    <div class="container">
+        <button class="buttonchanger">Boton 1</button>
+        <button class="buttonchanger">Boton 2</button>
+        <button class="buttonchanger">Boton 3</button>
+        <button class="buttonchanger">Boton 4</button>
+        <button class="buttonchanger">Boton 5</button>
+    </div>
+
+
+    <!-- Esercizio 3 Crea un html con 5 div de 100px por 100px y un botón. Cada vez que pulses el
+botón. Los divs tienen que cambiar de color de manera aleatoria. -->
+
+    <h2>Ejercicio 3</h2>
+    <div class="container">
+        <button class="box3">1</button>
+        <button class="box3">2</button>
+        <button class="box3">3</button>
+        <button class="box3">4</button>
+        <button class="box3">5</button>
+
+        <button id="button3"> Cambiar colores</button>
+    </div>
+
+
+
+    <!-- Esercizio 4B -->
+
+    <h2>Ejercicio 4</h2>
+    <div class="container">
+        <span id="clientX">1</span>
+        <span id="clientY">2</span>
+
+    </div>
+
+    <!-- Esercizio 5 -->
+    <h2>Ejercicio 5</h2>
+    <div class="container">
+        <div class="box box5">1</div>
+        <div class="box box5">2</div>
+        <div class="box box5">3</div>
+        <div class="box box5">4</div>
+        <div class="box box5">5</div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Eume House</title>
+    <style>
+        @font-face {
+            font-family: 'Monumentextended';
+            src: url('font/MonumentExtended-Regular.otf');
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="index.js" defer> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+
+    <!-- Ejercicio 1 -->
+    <header>
+        <ul>
+            <li id="menu-1" class="active" onclick="menu(1)">Surf Spot 1</li>
+            <li id="menu-2" onclick="menu(2)">Surf Spot 2</li>
+            <li id="menu-3" onclick="menu(3)">Surf Spot 3</li>
+            <li id="menu-4" onclick="menu(4)">Surf Spot 4</li>
+        </ul>
+    </header>
+    <main>
+        <div class="active" id="div-1">
+            <h1>Onde Perfette a Pipeline</h1>
+            <img onclick="open_img('./assets/image1.webp')" alt="image1" src="./assets/image1.webp">
+            <img onclick="open_img('./assets/image2.webp')" alt="image1" src="./assets/image2.webp">
+            <img onclick="open_img('./assets/image3.webp')" alt="image1" src="./assets/image3.webp">
+            <p>Pipeline, situato alle Hawaii, è noto per le sue potenti onde tubolari, amate dai surfisti esperti.
+            </p>
+
+
+            <!-- Ejercicio 2 -->
+            <h2>Ejercicio 2</h2>
+            <div class="div-container">
+                <div class="carta">
+                    <div class="contenido">
+                        <div class="cara frente"></div>
+                        <div class="cara dorso"></div>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="contenido">
+                        <div class="cara frente"></div>
+                        <div class="cara dorso"></div>
+                    </div>
+                </div>
+                <div class="carta">
+                    <div class="contenido">
+                        <div class="cara frente"></div>
+                        <div class="cara dorso"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div-2">
+            <!-- Ejercicio 3 -->
+            <h2>Ejercicio 3</h2>
+            <video width="400" autoplay muted loop>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                Your browser does not support HTML video.
+            </video>
+        </div>
+        <div id="div-3">
+            <!-- Ejercicio 4 -->
+            <h2>Ejercicio 4</h2>
+            <input id="number" type="number" min="1" max="9" oninput="validate(this)">
+            <br>
+            <button id="check">Comprobar</button>
+            <br>
+            <span id="span"></span>
+        </div>
+
+        <!-- Esercizio 5 - Effetto con Particles.js -->
+        <div id="div-4">
+
+
+
+            <h2>Ejercicio 5</h2>
+            <div id="particles-js"></div>
+            <canvas width="400" height="400" id="game"></canvas>
+
+
+
+
+
+
+
+
+
+    </main>
+</body>
+
+</html>

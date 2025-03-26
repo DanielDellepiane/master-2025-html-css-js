@@ -1,0 +1,202 @@
+/* Reset */
+*:not(button) {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* lightbox */
+/* 
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.grid {
+    width: 100%;
+    max-width: 56.25rem;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.grid .img {
+    width: calc(100% / 3 - 1rem);
+    object-fit: cover; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.grid .img:hover {
+    transform: scale(1.05);
+}
+
+
+.grid .img:active {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.lightbox {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    backdrop-filter: blur(1rem);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+
+.lightbox.isActive {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.lightbox .close {
+    width: 3rem;
+   
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lightbox .close:hover {
+    transform: scale(1.1);
+}
+
+.lightbox .grande {
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    max-height: 80vh;
+    background-color: orange;
+}  */
+
+
+/* tabs */
+
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    max-width: 120em;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+.contenedor .ul {
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.contenedor .li {
+    cursor: pointer;
+    padding: 1em;
+    margin: 0 2em 0 0;
+    transition: all.5s ease;
+}
+
+.contenedor .li.activo {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.contenedor .subcontenedor {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.contenedor .bloque {
+    transform: translateY(50%);
+    margin: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 2em;
+    opacity: 0;
+    transition: all.5s ease;
+
+}
+
+.contenedor .bloque.activo {
+    opacity: 1;
+    transform: translateY(0%)
+}  */
+
+/* acordeon */
+
+
+.acordeon {
+    width: 90%;
+    max-width: 120em;
+    padding: 2em;
+    border: solid 1px lightgray;
+}
+
+.acordeon .bloque {
+    margin: 0 0 1em;
+    padding: 1em;
+    border: solid 1px lightgray;
+    cursor: pointer;
+}
+
+.acordeon .h2 {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: lightgray;
+}
+
+.acordeon .contenido {
+
+    height: 0;
+    padding: 0em;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.acordeon .bloque.activo .contenido {
+    height: 4em;
+}
